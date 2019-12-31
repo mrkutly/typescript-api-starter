@@ -35,6 +35,8 @@ Includes setup for:
 
 7. Navigate to http://localhost:3000/api-docs to see the Swagger documentation.
 
+Make sure you set up the environment variables with your SMTP host information in order to use the password reset mailing.
+
 ## Deploying
 
 This project was designed to be deployed on Heroku. If you are using Heroku, everything is set up for maximum ease. You should hopefully only need to add the Postgres data add-on and add your environment variables in the config.
