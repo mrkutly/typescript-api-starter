@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+  db:
+    image: "postgres:12.1-alpine"
+    container_name: postgres-dev-db
+    restart: "always"
+    ports: 
+      - "5432:5432"
+    volumes: 
+      - postgres-dev-db:/var/lib/postgres/data
+
+volumes:
+  postgres-dev-db:
